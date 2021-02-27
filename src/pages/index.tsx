@@ -1,7 +1,6 @@
 import { CompletedChallenges } from '../components/CompletedChallenges';
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
-import Switch from 'react-switch'
 
 import { Countdown } from '../components/Countdown';
 import { ExperienceBar } from "../components/ExperienceBar";
@@ -28,8 +27,6 @@ export default function Home(props: HomeProps) {
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light')
 
-    console.log(typeof(theme))
-    console.log(props)
   }
 
   return (
