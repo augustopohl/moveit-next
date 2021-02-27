@@ -4,6 +4,11 @@
     box-sizing: 0;
 }
 
+.MyApp {
+    background: var(--theme-page-background);
+    color: var(--theme-page-text);
+  }
+
 :root {
     --white: #fff;
     --background: #F2F3F5;
